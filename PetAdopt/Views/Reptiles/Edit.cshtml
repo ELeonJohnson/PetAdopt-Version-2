@@ -1,0 +1,129 @@
+﻿@model PetAdopt.Models.Reptile
+
+@{
+    ViewData["Title"] = "Edit";
+    <link href="~/css/styles/Reptile/EditStyling.css" rel="stylesheet" />
+
+}
+
+
+
+<h1>Update Your Reptile</h1>
+<form asp-action="Edit" enctype="multipart/form-data">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <input type="hidden" asp-for="ReptileId" />
+    <input type="hidden" asp-for="ApplicationUserId" />
+
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input asp-for="Age" class="form-control" />
+                <span asp-validation-for="Age" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <textarea asp-for="FoodReq" class="form-control" rows="4"></textarea>
+                <span asp-validation-for="FoodReq" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <textarea asp-for="HabitatReq" class="form-control" rows="4"></textarea>
+                <span asp-validation-for="HabitatReq" class="text-danger"></span>
+            </div>
+        </div>
+
+
+        <div class="col-md-6">
+            <div class="form-group">
+                <input asp-for="Gender" class="form-control" />
+                <span asp-validation-for="Gender" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input asp-for="Type" class="form-control" />
+                <span asp-validation-for="Type" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input asp-for="Size" class="form-control" />
+                <span asp-validation-for="Size" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input asp-for="Color" class="form-control" />
+                <span asp-validation-for="Color" class="text-danger"></span>
+            </div>
+        </div>
+    </div>
+
+    <h2>Tell Us About Your Reptile</h2>
+    <p id="p-apply-check">Please Check All That Applies To Your Reptile.</p>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group form-check">
+                <h5>Did Your Reptile Have A Recent Checkup?</h5>
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="RecentCheckup" /> @Html.DisplayNameFor(model => model.RecentCheckup)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <h5>Is Your Reptile Trained?</h5>
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Trained" /> @Html.DisplayNameFor(model => model.Trained)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <h5>Is Your Reptile Neutered?</h5>
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Neutered" /> @Html.DisplayNameFor(model => model.Neutered)
+                </label>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group form-check">
+                <h5>Is Your Reptile Declawed?</h5>
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Declawed" /> @Html.DisplayNameFor(model => model.Declawed)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <h5>Is Your Reptile Good With Kids?</h5>
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="GoodWithKids" /> @Html.DisplayNameFor(model => model.GoodWithKids)
+                </label>
+            </div>
+            <div class="form-group form-check">
+                <h5>Is Your Reptile Good With Other Reptiles?</h5>
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="GoodWithRept" /> @Html.DisplayNameFor(model => model.GoodWithRept)
+                </label>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="form-group form-check">
+                <h5>Reptile's Image</h5>
+                <label asp-for="Image" class="control-label"></label>
+                <input asp-for="Image" type="file" name="Image" id="Image">
+                <span asp-validation-for="Image" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn" />         
+            </div>
+            <div>
+                <a asp-action="Index">Back to List</a>
+            </div>
+        </div>
+    </div>
+
+
+</form>
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

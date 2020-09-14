@@ -1,0 +1,82 @@
+﻿@import '../Global.scss';
+
+
+h1 {
+    color: $black;
+    text-transform: capitalize;
+    font-family: $big-font;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+form {
+    h2 {
+        color: $black;
+        text-transform: capitalize;
+        font-family: $big-font;
+        margin-top: 5%;
+    }
+
+    p#p-apply-check {
+        color: $light-black;
+        font-family: $lil-font;
+        margin-bottom: 5%;
+    }
+
+    div.row {
+        div.col-md-6 {
+            div.form-group.form-check {
+                margin-bottom: 10%;
+
+                h5 {
+                    color: $black;
+                    font-family: $big-font;
+                }
+
+                label.form-check-label {
+                    margin-left: 4%;
+                    color: $light-black;
+                    font-family: $lil-font;
+                }
+            }
+        }
+    }
+
+    div.row {
+        div.col-md-12 {
+            h5 {
+                color: $black;
+                font-family: $big-font;
+            }
+
+            div.form-group {
+                input.btn {
+                    color: $cat-light-blue;
+                    border-color: $cat-light-blue;
+                    background-color: $white;
+                    margin-right: 15%;
+                    font-family: $big-font;
+
+                    &:hover {
+                        color: $white;
+                        background-color: $cat-blue;
+                        border-color: $cat-blue;
+                    }
+                }
+            }
+
+            div {
+                a {
+                    color: $black;
+                    font-family: $lil-font;
+                    text-transform: capitalize;
+
+                    &:hover {
+                        color: $cat-light-blue;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}

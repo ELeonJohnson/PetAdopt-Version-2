@@ -1,0 +1,222 @@
+﻿body div.container div.row div.col-md-9 {
+  margin-top: 5%; }
+  body div.container div.row div.col-md-9 div#back-link a {
+    color: #000000;
+    font-family: "Merriweather", serif;
+    margin-left: 1%; }
+    body div.container div.row div.col-md-9 div#back-link a:hover {
+      text-decoration: none;
+      color: #a4bfd9; }
+  body div.container div.row div.col-md-9 div.row div.col-md-6 h2#cats-name {
+    color: #000000;
+    font-family: "Lora", serif;
+    margin-bottom: 2.5%;
+    margin-top: 10%; }
+    body div.container div.row div.col-md-9 div.row div.col-md-6 h2#cats-name span {
+      text-transform: uppercase;
+      color: #5b92cb !important;
+      font-family: "Merriweather", serif; }
+  body div.container div.row div.col-md-9 div.row div.col-md-6 div#cats-img img {
+    height: 405px;
+    width: 400px;
+    border-radius: 2rem; }
+  body div.container div.row div.col-md-9 div.row div.col-md-6 div#ask-about {
+    margin-top: 25%;
+    margin-left: 25%; }
+    body div.container div.row div.col-md-9 div.row div.col-md-6 div#ask-about a.btn.btn-lg.btn-default {
+      background-color: #a4bfd9 !important;
+      border-color: #a4bfd9 !important;
+      color: #000000;
+      font-family: "Merriweather", serif; }
+      body div.container div.row div.col-md-9 div.row div.col-md-6 div#ask-about a.btn.btn-lg.btn-default:hover {
+        background-color: #5b92cb !important;
+        border-color: #5b92cb !important;
+        box-shadow: 0px 9px 13px -8px #4d4d4d; }
+    body div.container div.row div.col-md-9 div.row div.col-md-6 div#ask-about h3#cared-for {
+      color: #000000;
+      font-family: "Lora", serif;
+      margin-top: 10%;
+      line-height: 3rem; }
+      body div.container div.row div.col-md-9 div.row div.col-md-6 div#ask-about h3#cared-for span {
+        color: #5b92cb;
+        text-transform: uppercase;
+        font-family: "Merriweather", serif; }
+  body div.container div.row div.col-md-9 h2.pet-h {
+    color: #242424;
+    font-family: "Lora", serif;
+    margin-bottom: 2.5%;
+    margin-top: 5%;
+    font-weight: bold; }
+  body div.container div.row div.col-md-9 div#pet-facts {
+    border-bottom: 2px solid #D8D8D8 !important; }
+    body div.container div.row div.col-md-9 div#pet-facts div.row {
+      margin-bottom: 5%; }
+      body div.container div.row div.col-md-9 div#pet-facts div.row div.col-md-6 h4 {
+        color: #242424;
+        font-family: "Merriweather", serif; }
+        body div.container div.row div.col-md-9 div#pet-facts div.row div.col-md-6 h4 span {
+          color: #4D4D4D;
+          font-family: "Lora", serif; }
+  body div.container div.row div.col-md-9 div#pet-info {
+    border-bottom: 2px solid #D8D8D8 !important; }
+    body div.container div.row div.col-md-9 div#pet-info div.row {
+      margin-bottom: 5%; }
+      body div.container div.row div.col-md-9 div#pet-info div.row div.col-md-6 h4 {
+        font-family: "Merriweather", serif; }
+  body div.container div.row div.col-md-9 div#food-req {
+    border-bottom: 2px solid #D8D8D8 !important; }
+    body div.container div.row div.col-md-9 div#food-req p {
+      color: #000000;
+      line-height: 2.5rem;
+      font-weight: 200;
+      font-family: "Merriweather", serif;
+      margin-bottom: 5%; }
+  body div.container div.row div.col-md-9 div#habitat-req {
+    border-bottom: 2px solid #D8D8D8 !important; }
+    body div.container div.row div.col-md-9 div#habitat-req p {
+      color: #000000;
+      line-height: 2.5rem;
+      font-weight: 200;
+      font-family: "Merriweather", serif;
+      margin-bottom: 5%; }
+  body div.container div.row div.col-md-9 div#contact-info {
+    padding: 5%;
+    border: 1px solid #D8D8D8 !important;
+    border-radius: 6px 6px 6px 6px;
+    border-top: 15px solid #a4bfd9 !important;
+    margin-top: 10%; }
+    body div.container div.row div.col-md-9 div#contact-info h5 {
+      color: #000000;
+      font-family: "Lora", serif; }
+    body div.container div.row div.col-md-9 div#contact-info h1 {
+      color: #000000;
+      font-family: "Merriweather", serif;
+      margin-bottom: 5%; }
+    body div.container div.row div.col-md-9 div#contact-info div.card {
+      border: 1px solid #D8D8D8 !important;
+      padding: 2%; }
+      body div.container div.row div.col-md-9 div#contact-info div.card div.card-body div.row div.col-md-6.heading h2.card-header {
+        color: #000000;
+        font-family: "Lora", serif; }
+      body div.container div.row div.col-md-9 div#contact-info div.card div.card-body div.row div.col-md-6.heading h4.card-text {
+        color: #242424;
+        font-family: "Merriweather", serif;
+        margin-top: 10%; }
+        body div.container div.row div.col-md-9 div#contact-info div.card div.card-body div.row div.col-md-6.heading h4.card-text span {
+          color: #4D4D4D;
+          font-family: "Lora", serif;
+          margin-left: 10%;
+          font-size: 18px; }
+      body div.container div.row div.col-md-9 div#contact-info div.card div.card-body div.row div.col-md-6.img div#img-section {
+        display: flex;
+        height: 40px; }
+        body div.container div.row div.col-md-9 div#contact-info div.card div.card-body div.row div.col-md-6.img div#img-section img.card-img {
+          width: 20%;
+          border-bottom-right-radius: 0;
+          border-top-right-radius: 0; }
+        body div.container div.row div.col-md-9 div#contact-info div.card div.card-body div.row div.col-md-6.img div#img-section a.btn.btn-lg.btn-default.btn-block {
+          background-color: #a4bfd9;
+          border-color: #a4bfd9;
+          border-bottom-left-radius: 0;
+          border-top-left-radius: 0;
+          color: #000000;
+          font-family: "Merriweather", serif;
+          padding: 0.3rem 1rem; }
+          body div.container div.row div.col-md-9 div#contact-info div.card div.card-body div.row div.col-md-6.img div#img-section a.btn.btn-lg.btn-default.btn-block:hover {
+            background-color: #5b92cb !important;
+            border-color: #5b92cb !important;
+            box-shadow: 0px 9px 13px -8px #4d4d4d; }
+      body div.container div.row div.col-md-9 div#contact-info div.card div.card-body div.row div.col-md-6.img h4.card-text {
+        color: #242424;
+        font-family: "Merriweather", serif;
+        margin-top: 10%; }
+        body div.container div.row div.col-md-9 div#contact-info div.card div.card-body div.row div.col-md-6.img h4.card-text span {
+          color: #4D4D4D;
+          font-family: "Lora", serif;
+          margin-left: 10%;
+          font-size: 18px; }
+
+body div.container div.row div.col-md-3 {
+  margin-top: 5%; }
+  body div.container div.row div.col-md-3 div.cat-ad a img {
+    width: 100%;
+    margin: 21%; }
+
+@media (max-width: 576px) {
+  body div#banner div.banner-img.d-flex {
+    margin-right: 3%; }
+  body div.container main.pb-3 div.row div.col-md-9 div.row {
+    margin-bottom: 10%; }
+    body div.container main.pb-3 div.row div.col-md-9 div.row div.col-md-6 h2#cats-name {
+      text-align: center; }
+    body div.container main.pb-3 div.row div.col-md-9 div.row div.col-md-6 div#cats-img img {
+      margin-left: 11%; }
+    body div.container main.pb-3 div.row div.col-md-9 div.row div.col-md-6 div#ask-about {
+      margin-left: 0;
+      margin-top: 10%;
+      text-align: center; }
+      body div.container main.pb-3 div.row div.col-md-9 div.row div.col-md-6 div#ask-about h3#cared-for {
+        margin-top: 5%; }
+  body div.container main.pb-3 div.row div.col-md-9 h2.pet-h {
+    text-align: center; }
+  body div.container main.pb-3 div.row div.col-md-9 div#pet-facts div.row {
+    margin-bottom: 5%; }
+    body div.container main.pb-3 div.row div.col-md-9 div#pet-facts div.row div.col-md-6 {
+      width: 50%; }
+    body div.container main.pb-3 div.row div.col-md-9 div#pet-facts div.row div.col-md-6 {
+      width: 50%; }
+  body div.container main.pb-3 div.row div.col-md-9 h2#info-h.pet-h {
+    text-align: center; }
+  body div.container main.pb-3 div.row div.col-md-9 div#pet-info div.row {
+    margin-bottom: 5%; }
+    body div.container main.pb-3 div.row div.col-md-9 div#pet-info div.row div.col-md-6 {
+      width: 50%; }
+    body div.container main.pb-3 div.row div.col-md-9 div#pet-info div.row div.col-md-6 {
+      width: 50%; }
+  body div.container main.pb-3 div.row div.col-md-9 h2.pet-h {
+    text-align: center; }
+  body div.container main.pb-3 div.row div.col-md-9 div#contact-info div.card div.card-body div.row div.col-md-6.img {
+    margin-top: 10%; }
+  body div.container main.pb-3 div.row div.col-md-3 {
+    margin-top: 0;
+    margin-left: 20%; }
+    body div.container main.pb-3 div.row div.col-md-3 div#img-1.cat-ad {
+      width: 50%; }
+    body div.container main.pb-3 div.row div.col-md-3 div#img-2.cat-ad {
+      width: 50%; }
+    body div.container main.pb-3 div.row div.col-md-3 div#img-3.cat-ad {
+      width: 50%; }
+    body div.container main.pb-3 div.row div.col-md-3 div#img-4.cat-ad {
+      width: 50%; } }
+
+@media (max-width: 768px) {
+  body div#banner div.banner-img.d-flex {
+    margin-right: 3%; }
+  body div.container main.pb-3 div.row div.col-md-9 div.row div.col-md-6 {
+    max-width: 100%;
+    margin-left: 10%; }
+    body div.container main.pb-3 div.row div.col-md-9 div.row div.col-md-6 h2#cats-name {
+      text-align: center; }
+  body div.container main.pb-3 div.row div.col-md-9 div.row div.col-md-6 div#ask-about {
+    margin-left: 0;
+    margin-top: 20%; }
+  body div.container main.pb-3 div.row div.col-md-9 div#contact-info {
+    padding: 2%; }
+    body div.container main.pb-3 div.row div.col-md-9 div#contact-info div.card div.card-body div.row div.col-md-6.heading h4.card-text {
+      font-size: .8rem; }
+      body div.container main.pb-3 div.row div.col-md-9 div#contact-info div.card div.card-body div.row div.col-md-6.heading h4.card-text span {
+        font-size: 13px; }
+    body div.container main.pb-3 div.row div.col-md-9 div#contact-info div.card div.card-body div.row div.col-md-6.img {
+      margin-top: 10%; }
+      body div.container main.pb-3 div.row div.col-md-9 div#contact-info div.card div.card-body div.row div.col-md-6.img h4.card-text {
+        font-size: .8rem; }
+        body div.container main.pb-3 div.row div.col-md-9 div#contact-info div.card div.card-body div.row div.col-md-6.img h4.card-text span {
+          font-size: 13px; }
+      body div.container main.pb-3 div.row div.col-md-9 div#contact-info div.card div.card-body div.row div.col-md-6.img div#img-section img.card-img {
+        display: none; } }
+
+@media (max-width: 992px) {
+  body div.container main.pb-3 div.row div.col-md-9 div#contact-info div.card div.card-body div.row div.col-md-6.heading h4.card-text {
+    font-size: .8rem; }
+  body div.container main.pb-3 div.row div.col-md-9 div#contact-info div.card div.card-body div.row div.col-md-6.img h4.card-text {
+    font-size: .8rem; } }

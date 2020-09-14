@@ -1,0 +1,187 @@
+﻿@page "{id:int}"
+@model IndexModel
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+@{
+    ViewData["Title"] = "Profile";
+    ViewData["ActivePage"] = ManageNavPages.Index;
+    <link href="~/css/styles/Account/IndexStyling.css" rel="stylesheet" />
+
+}
+<h1>@Model.Input.UserName <span>'s</span> @ViewData["Title"]</h1>
+<partial name="_StatusMessage" for="StatusMessage" />
+<div id="user-section" class="row">
+    <div class="col-md-4">
+        <img id="users-img" src="data:image/jpeg;base64,@Convert.ToBase64String(Model.Input.Image)" />
+    </div>
+    <div class="col-md-8">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="user-details">
+                    <p>First Name: <span>@Model.Input.FirstName</span></p>
+                </div>
+                <div class="user-details">
+                    <p>Last Name: <span>@Model.Input.LastName</span></p>
+                </div>
+                <div class="user-details">
+                    <p>Email: <span>@Model.Input.Email</span></p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="user-details">
+                    <p>City: <span>@Model.Input.City</span></p>
+                </div>
+                <div class="user-details">
+                    <p>State: <span>@Model.Input.State</span></p>
+                </div>
+                <div class="user-details">
+                    <p>Phone Number: <span>@Model.Input.Number</span></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="user-reptiles">
+    <h1>@Model.Input.FirstName<span>'s Reptiles Up For Adoption</span></h1>
+    <div class="row">
+        <div class="col-md-12">
+            @foreach (var rept in Model.Input.Reptile)
+            {
+                <div class="row">
+                    <div class="col-md-4">
+                        <img id="pets-img" src="data:image/jpeg;base64,@Convert.ToBase64String(rept.Image)" />
+                    </div>
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="pet-details">
+                                    <p>Name: <span>@rept.Name</span></p>
+                                </div>
+                                <div class="pet-details">
+                                    <p>Age: <span>@rept.Age</span></p>
+                                </div>
+                                <div class="pet-details">
+                                    <p>Gender: <span>@rept.Gender</span></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="pet-details">
+                                    <p>Type: <span>@rept.Type</span></p>
+                                </div>
+                                <div class="pet-details">
+                                    <p>Size: <span>@rept.Size</span></p>
+                                </div>
+                                <div class="pet-details">
+                                    <p>Color: <span>@rept.Color</span></p>
+                                </div>
+                            </div>
+                            <a asp-controller="Reptiles" asp-action="Details" asp-route-id="@rept.ReptileId" class="btn btn-default">
+                                More Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<div id="user-dogs">
+    <h1>@Model.Input.FirstName<span>'s Dogs Up For Adoption</span></h1>
+    <div class="row">
+        <div class="col-md-12">
+            @foreach (var dog in Model.Input.Dog)
+            {
+                <div class="row">
+                    <div class="col-md-4">
+                        <img id="pets-img" src="data:image/jpeg;base64,@Convert.ToBase64String(dog.Image)" />
+                    </div>
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="pet-details">
+                                    <p>Name: <span>@dog.Name</span></p>
+                                </div>
+                                <div class="pet-details">
+                                    <p>Age: <span>@dog.Age</span></p>
+                                </div>
+                                <div class="pet-details">
+                                    <p>Gender: <span>@dog.Gender</span></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="pet-details">
+                                    <p>Type: <span>@dog.Type</span></p>
+                                </div>
+                                <div class="pet-details">
+                                    <p>Size: <span>@dog.Size</span></p>
+                                </div>
+                                <div class="pet-details">
+                                    <p>Color: <span>@dog.Color</span></p>
+                                </div>
+                            </div>
+                            <a asp-controller="Dogs" asp-action="Details" asp-route-id="@dog.DogId" class="btn btn-default">
+                                More Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<div id="user-cats">
+    <h1>@Model.Input.FirstName<span>'s Cats Up For Adoption</span></h1>
+    <div class="row">
+        <div class="col-md-12">
+            @foreach (var cat in Model.Input.Cat)
+            {
+                <div class="row">
+                    <div class="col-md-4">
+                        <img id="pets-img" src="data:image/jpeg;base64,@Convert.ToBase64String(cat.Image)" />
+                    </div>
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="pet-details">
+                                    <p>Name: <span>@cat.Name</span></p>
+                                </div>
+                                <div class="pet-details">
+                                    <p>Age: <span>@cat.Age</span></p>
+                                </div>
+                                <div class="pet-details">
+                                    <p>Gender: <span>@cat.Gender</span></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="pet-details">
+                                    <p>Type: <span>@cat.Type</span></p>
+                                </div>
+                                <div class="pet-details">
+                                    <p>Size: <span>@cat.Size</span></p>
+                                </div>
+                                <div class="pet-details">
+                                    <p>Color: <span>@cat.Color</span></p>
+                                </div>
+                            </div>
+                            <a asp-controller="Cats" asp-action="Details" asp-route-id="@cat.CatId" class="btn btn-default">
+                                More Details
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+
+
+
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

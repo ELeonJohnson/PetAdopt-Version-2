@@ -1,0 +1,165 @@
+﻿div.container h3 {
+  color: #000000;
+  font-family: "Merriweather", serif;
+  text-transform: capitalize;
+  margin-top: 5%; }
+  div.container h3 span {
+    color: #BA4D39; }
+
+div.container div.row div.col-md-9 {
+  margin-top: 5%; }
+  div.container div.row div.col-md-9 div#back-link {
+    margin-bottom: 5%; }
+    div.container div.row div.col-md-9 div#back-link a {
+      color: #000000;
+      font-family: "Merriweather", serif;
+      margin-left: 1%; }
+      div.container div.row div.col-md-9 div#back-link a:hover {
+        text-decoration: none;
+        color: #a4bfd9; }
+  div.container div.row div.col-md-9 div.row div.col-md-12 div#cats-img img {
+    height: 405px;
+    width: 100% !important;
+    border-radius: 2rem; }
+  div.container div.row div.col-md-9 h2.pet-h {
+    color: #242424;
+    font-family: "Lora", serif;
+    margin-bottom: 2.5%;
+    margin-top: 5%;
+    font-weight: bold; }
+  div.container div.row div.col-md-9 div#pet-facts {
+    border-bottom: 2px solid #D8D8D8 !important; }
+    div.container div.row div.col-md-9 div#pet-facts div.row {
+      margin-bottom: 5%; }
+      div.container div.row div.col-md-9 div#pet-facts div.row div.col-md-6 h4 {
+        color: #242424;
+        font-family: "Merriweather", serif; }
+        div.container div.row div.col-md-9 div#pet-facts div.row div.col-md-6 h4 span {
+          color: #4D4D4D;
+          font-family: "Lora", serif; }
+  div.container div.row div.col-md-9 div#pet-info {
+    border-bottom: 2px solid #D8D8D8 !important; }
+    div.container div.row div.col-md-9 div#pet-info div.row {
+      margin-bottom: 5%; }
+      div.container div.row div.col-md-9 div#pet-info div.row div.col-md-6 h4 {
+        font-family: "Merriweather", serif; }
+  div.container div.row div.col-md-9 div#food-req {
+    border-bottom: 2px solid #D8D8D8 !important; }
+    div.container div.row div.col-md-9 div#food-req p {
+      color: #000000;
+      line-height: 2.5rem;
+      font-weight: 200;
+      font-family: "Merriweather", serif;
+      margin-bottom: 5%; }
+  div.container div.row div.col-md-9 div#habitat-req {
+    border-bottom: 2px solid #D8D8D8 !important; }
+    div.container div.row div.col-md-9 div#habitat-req p {
+      color: #000000;
+      line-height: 2.5rem;
+      font-weight: 200;
+      font-family: "Merriweather", serif;
+      margin-bottom: 5%; }
+
+div.container div.row div.col-md-3 {
+  margin-top: 5%; }
+  div.container div.row div.col-md-3 div.cat-ad a img {
+    width: 100%;
+    margin: 21%; }
+
+div.container form {
+  margin-top: 3%; }
+  div.container form input.btn.btn-danger {
+    color: #BA4D39;
+    background-color: #ffffff;
+    border-color: #BA4D39; }
+    div.container form input.btn.btn-danger:hover {
+      color: #ffffff;
+      background-color: #BA4D39;
+      border-color: #BA4D39; }
+  div.container form span {
+    margin-right: 1%;
+    margin-left: 1%; }
+  div.container form a {
+    color: #000000;
+    font-family: "Merriweather", serif;
+    text-transform: capitalize; }
+    div.container form a:hover {
+      color: #a4bfd9;
+      text-decoration: none; }
+
+@media (max-width: 576px) {
+  body div#banner div.banner-img.d-flex {
+    margin-right: 3%; }
+  body div.container main.pb-3 div.row div.col-md-9 div.row {
+    margin-bottom: 10%; }
+    body div.container main.pb-3 div.row div.col-md-9 div.row div.col-md-6 h2#cats-name {
+      text-align: center; }
+    body div.container main.pb-3 div.row div.col-md-9 div.row div.col-md-6 div#cats-img img {
+      margin-left: 11%; }
+    body div.container main.pb-3 div.row div.col-md-9 div.row div.col-md-6 div#ask-about {
+      margin-left: 0;
+      margin-top: 10%;
+      text-align: center; }
+      body div.container main.pb-3 div.row div.col-md-9 div.row div.col-md-6 div#ask-about h3#cared-for {
+        margin-top: 5%; }
+  body div.container main.pb-3 div.row div.col-md-9 h2.pet-h {
+    text-align: center; }
+  body div.container main.pb-3 div.row div.col-md-9 div#pet-facts div.row {
+    margin-bottom: 5%; }
+    body div.container main.pb-3 div.row div.col-md-9 div#pet-facts div.row div.col-md-6 {
+      width: 50%; }
+    body div.container main.pb-3 div.row div.col-md-9 div#pet-facts div.row div.col-md-6 {
+      width: 50%; }
+  body div.container main.pb-3 div.row div.col-md-9 h2#info-h.pet-h {
+    text-align: center; }
+  body div.container main.pb-3 div.row div.col-md-9 div#pet-info div.row {
+    margin-bottom: 5%; }
+    body div.container main.pb-3 div.row div.col-md-9 div#pet-info div.row div.col-md-6 {
+      width: 50%; }
+    body div.container main.pb-3 div.row div.col-md-9 div#pet-info div.row div.col-md-6 {
+      width: 50%; }
+  body div.container main.pb-3 div.row div.col-md-9 h2.pet-h {
+    text-align: center; }
+  body div.container main.pb-3 div.row div.col-md-9 div#contact-info div.card div.card-body div.row div.col-md-6.img {
+    margin-top: 10%; }
+  body div.container main.pb-3 div.row div.col-md-3 {
+    margin-top: 0;
+    margin-left: 20%; }
+    body div.container main.pb-3 div.row div.col-md-3 div#img-1.cat-ad {
+      width: 50%; }
+    body div.container main.pb-3 div.row div.col-md-3 div#img-2.cat-ad {
+      width: 50%; }
+    body div.container main.pb-3 div.row div.col-md-3 div#img-3.cat-ad {
+      width: 50%; } }
+
+@media (max-width: 768px) {
+  body div#banner div.banner-img.d-flex {
+    margin-right: 3%; }
+  body div.container main.pb-3 div.row div.col-md-9 div.row div.col-md-6 {
+    max-width: 100%;
+    margin-left: 10%; }
+    body div.container main.pb-3 div.row div.col-md-9 div.row div.col-md-6 h2#dogs-name {
+      text-align: center; }
+  body div.container main.pb-3 div.row div.col-md-9 div.row div.col-md-6 div#ask-about {
+    margin-left: 0;
+    margin-top: 20%; }
+  body div.container main.pb-3 div.row div.col-md-9 div#contact-info {
+    padding: 2%; }
+    body div.container main.pb-3 div.row div.col-md-9 div#contact-info div.card div.card-body div.row div.col-md-6.heading h4.card-text {
+      font-size: .8rem; }
+      body div.container main.pb-3 div.row div.col-md-9 div#contact-info div.card div.card-body div.row div.col-md-6.heading h4.card-text span {
+        font-size: 13px; }
+    body div.container main.pb-3 div.row div.col-md-9 div#contact-info div.card div.card-body div.row div.col-md-6.img {
+      margin-top: 10%; }
+      body div.container main.pb-3 div.row div.col-md-9 div#contact-info div.card div.card-body div.row div.col-md-6.img h4.card-text {
+        font-size: .8rem; }
+        body div.container main.pb-3 div.row div.col-md-9 div#contact-info div.card div.card-body div.row div.col-md-6.img h4.card-text span {
+          font-size: 13px; }
+      body div.container main.pb-3 div.row div.col-md-9 div#contact-info div.card div.card-body div.row div.col-md-6.img div#img-section img.card-img {
+        display: none; } }
+
+@media (max-width: 992px) {
+  body div.container main.pb-3 div.row div.col-md-9 div#contact-info div.card div.card-body div.row div.col-md-6.heading h4.card-text {
+    font-size: .8rem; }
+  body div.container main.pb-3 div.row div.col-md-9 div#contact-info div.card div.card-body div.row div.col-md-6.img h4.card-text {
+    font-size: .8rem; } }

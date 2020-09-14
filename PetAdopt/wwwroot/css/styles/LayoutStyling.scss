@@ -1,0 +1,140 @@
+﻿@import 'Global.scss';
+
+body {
+    div#banner {
+        background-color: $banner-yellow;
+        padding: .9%;
+
+        div.banner-img.d-flex {
+            img#close-banner.ml-auto {
+                cursor: pointer;
+            }
+        }
+
+        div.d-block {
+            text-align: center;
+
+            h3 {
+                font-weight: 700;
+                font-family: $big-font;
+                font-size: 1.625rem;
+            }
+
+            h4 {
+                font-weight: 400;
+                font-family: $lil-font;
+                font-size: 1.25rem;
+            }
+
+            a .btn.btn-success {
+                font-family: $big-font;
+                color: $white;
+            }
+        }
+    }
+
+    div#header-marketing.d-flex.justify-content-around {
+        margin-top: 1%;
+
+        div#header-logo-adopter {
+            margin: auto 0;
+
+            img#adopter-logo {
+                width: 150px;
+                height: 95px;
+                margin-left: 15% !important;
+            }
+
+            p#adopter-text.mt-2 {
+                color: $black;
+                font-family: $lil-font;
+                text-transform: uppercase;
+            }
+        }
+
+        div#header-logo-adoption {
+            margin: auto 0;
+
+            img#adoption-logo {
+                width: 150px;
+                height: 100px !important;
+                margin-left: 15% !important;
+            }
+
+            p#adoption-text.mt-2 {
+                color: $black;
+                font-family: $lil-font;
+                text-transform: uppercase;
+            }
+        }
+    }
+
+    header {
+
+
+        nav.navbar.navbar-expand-sm.navbar-toggleable-sm.navbar-light.bg-white.border-bottom.box-shadow.mb-3 {
+            box-shadow: 0px 20px 50px 0px rgba(216,216,216,0.8);
+
+            div.container {
+                a.navbar-brand {
+                    font-family: $big-font !important;
+                    color: $black !important;
+
+                    &:hover {
+                        color: $cat-light-grey !important;
+                    }
+                }
+
+                div.navbar-collapse.collapse.d-sm-inline-flex.flex-sm-row-reverse {
+                    ul.navbar-nav {
+                        li.nav-item {
+                            a.nav-link.text-dark {
+                                font-family: $lil-font;
+                                color: $black;
+
+                                &:hover {
+                                    color: $cat-light-grey !important;
+                                }
+                            }
+                        }
+                    }
+
+                    ul.navbar-nav.flex-grow-1 {
+                        li.nav-item {
+                            a.nav-link.text-dark {
+                                font-family: $lil-font;
+                                color: $black;
+
+                                &:hover {
+                                    color: $cat-light-grey !important;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    footer.border-top.footer.text-muted {
+        div.container {
+            text-align: center;
+            color: $black;
+            font-family: $lil-font;
+
+            div#flat-icon {
+                a {
+                    color: $black !important;
+                    font-family: $lil-font;
+                    font-size: 10px;
+
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}
+
+

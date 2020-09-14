@@ -1,0 +1,288 @@
+﻿@import '../Global.scss';
+
+h1 {
+    font-family: $big-font;
+    color: $black;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+h5 {
+    margin-bottom: 5%;
+
+    a {
+        color: $black;
+        font-family: $big-font;
+
+
+        &:hover {
+            text-decoration: none;
+            color: $dog-orange;
+        }
+    }
+}
+
+div.row {
+
+    div#sidebar.col-md-3 {
+        div#find-dog-promo {
+            border: 1px solid $dog-red;
+            border-radius: 10px;
+            margin-bottom: 15%;
+
+            img {
+                width: 50%;
+                margin-left: 25%;
+                margin-bottom: 10%;
+                margin-top: 5%;
+            }
+
+            h3 {
+                font-family: $big-font;
+                color: $dog-red;
+                text-align: center;
+                font-weight: bold;
+                margin-bottom: 5%;
+            }
+
+            p {
+                font-family: $lil-font;
+                text-align: center;
+                color: $black;
+                font-size: 14px;
+            }
+
+            div#find-dog-promo-footer {
+                text-align: center;
+                text-transform: uppercase;
+                color: $dog-red !important;
+                padding: 10px 18px;
+                font-weight: bold;
+                border-top: 1px solid $dog-red;
+                font-family: $big-font;
+
+                &:hover {
+                    color: $white !important;
+                    background-color: $dog-burgundy;
+                    cursor: pointer;
+                    border-bottom-right-radius: 10px;
+                    border-bottom-left-radius: 10px;
+                    border-color: $dog-burgundy !important;
+                }
+
+                a {
+                    color: inherit;
+                    font-size: 18px;
+                    text-decoration: none;
+                }
+            }
+        }
+
+        form {
+            div.form-group {
+                label {
+                    color: $black;
+                    font-family: $lil-font;
+                    width: 100%;
+                    text-align: center;
+                }
+
+                select.form-control.form-control-lg {
+                    border-color: $dog-red;
+
+                    &:hover {
+                        box-shadow: 0px 9px 13px -8px rgba(77,77,77,1);
+                    }
+                }
+
+                input.form-control.form-control-lg {
+                    border-color: $dog-red;
+
+                    &:hover {
+                        box-shadow: 0px 9px 13px -8px rgba(77,77,77,1);
+                    }
+                }
+            }
+
+            button.btn.btn-default {
+                color: $dog-red;
+                border-color: $dog-red;
+                font-family: $lil-font;
+
+
+                &:hover {
+                    color: white;
+                    border-color: $dog-burgundy;
+                    background-color: $dog-burgundy;
+                }
+            }
+
+            a {
+                font-family: $lil-font;
+                color: $black;
+                text-transform: capitalize;
+
+                &:hover {
+                    text-decoration: none;
+                    color: $dog-orange;
+                }
+            }
+
+            span {
+                margin-right: 5%;
+                margin-left: 5%;
+            }
+        }
+    }
+
+    div#pet-results.col-md-9 {
+        margin-bottom: 5%;
+
+        div.row {
+            div.col-md-4 {
+                margin-bottom: 5%;
+
+                div.card {
+                    height: 100%;
+                    border-radius: 8px !important;
+                    padding: 8px;
+                    border-color: $dog-burgundy;
+
+
+                    &:hover {
+                        border-color: $dog-red;
+                        box-shadow: 0px 9px 13px -8px rgba(77,77,77,1);
+                    }
+
+                    img.card-img {
+                        border-radius: 10px;
+                        height: 158px;
+                    }
+
+                    div.card-body {
+                        h5.card-title {
+                            color: $black;
+                            font-family: $big-font;
+                            font-weight: bold;
+                            text-align: center;
+                        }
+
+                        p.card-text {
+                            font-family: $lil-font;
+                            color: $black;
+                            text-align: center;
+                        }
+                    }
+
+                    div#dog-row.row {
+
+                        div.col-md-4 {
+                            a {
+                                color: $black;
+                                border-color: $dog-orange;
+                                font-family: $lil-font;
+
+
+                                &:hover {
+                                    text-decoration: none;
+                                    color: $dog-orange;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    div#sidebar.col-md-3 {
+        form {
+            margin-bottom: 10%;
+        }
+    }
+
+    div#pet-results.col-md-9 {
+        div.row {
+            div.col-md-4 {
+                div.card {
+                    width: 50%;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    div#sidebar.col-md-3 {
+        flex: none;
+        max-width: none;
+        margin-bottom: 10%;
+
+        div#find-dog-promo {
+            width: 50%;
+            margin: 0 auto;
+        }
+
+        form {
+            margin-top: 10%;
+            width: 50%;
+            margin: 0 auto;
+        }
+    }
+
+
+    div#pet-results.col-md-9 {
+        margin: 0 auto;
+
+        div.row {
+            div.col-md-4 {
+                flex: none;
+                max-width: none;
+
+                div.card {
+                    width: 50%;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    div#sidebar.col-md-3 {
+        flex: none;
+        max-width: none;
+        margin-bottom: 10%;
+
+        div#find-dog-promo {
+            width: 50%;
+            margin: 0 auto;
+        }
+
+        form {
+            margin-top: 10%;
+            width: 50%;
+            margin: 0 auto;
+        }
+    }
+
+
+    div#pet-results.col-md-9 {
+        margin: 0 auto;
+
+        div.row {
+            div.col-md-4 {
+                flex: none;
+                max-width: none;
+
+                div.card {
+                    width: 50%;
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+}

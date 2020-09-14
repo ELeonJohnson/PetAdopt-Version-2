@@ -1,0 +1,119 @@
+﻿@model PetAdopt.Models.Cat
+
+@{
+    ViewData["Title"] = "Delete";
+    <link href="~/css/styles/Cat/DeleteStyling.css" rel="stylesheet" />
+}
+
+
+<h3>Are you sure you want to <span>delete</span> @Model.Name?</h3>
+
+
+<div class="row">
+    <div class="col-md-9">
+        <div id="back-link">
+            <a asp-action="Index"><img src="~/Images/back.png" /> Back To Results</a>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div id="cats-img">
+                    <img src="data:image/jpeg;base64,@Convert.ToBase64String(Model.Image)" />
+                </div>
+            </div>
+        </div>
+        <h2 class="pet-h">Facts About Me</h2>
+
+        <div id="pet-facts">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4>Breed - <span>@Html.DisplayFor(model => model.Type)</span></h4>
+                    <h4>Color - <span>@Html.DisplayFor(model => model.Color)</span></h4>
+                    <h4>Age - <span>@Html.DisplayFor(model => model.Age)</span></h4>
+                </div>
+                <div class="col-md-6">
+                    <h4>Size - <span>@Html.DisplayFor(model => model.Size)</span></h4>
+                    <h4>Gender - <span>@Html.DisplayFor(model => model.Gender)</span></h4>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="pet-h" id="info-h">My Info</h2>
+
+        <div id="pet-info">
+
+            <div class="row">
+                <div class="col-md-6">
+                    @if (Model.RecentCheckup == true)
+                    {<h4 class="text-success"><span>@Html.DisplayFor(model => model.RecentCheckup)</span> - Recent Checkup</h4>}
+                else
+                {<h4 class="text-danger"><span>@Html.DisplayFor(model => model.RecentCheckup)</span> - Recent Checkup</h4>}
+
+                    @if (Model.Trained == true)
+                    {<h4 class="text-success"><span>@Html.DisplayFor(model => model.Trained)</span> - Trained</h4>}
+                else
+                {<h4 class="text-danger"><span>@Html.DisplayFor(model => model.Trained)</span> - Trained</h4>}
+
+                    @if (Model.Neutered == true)
+                    {<h4 class="text-success"><span>@Html.DisplayFor(model => model.Neutered)</span> - Neutered</h4>}
+                else
+                {<h4 class="text-danger"><span>@Html.DisplayFor(model => model.Neutered)</span> - Neutered</h4>}
+                </div>
+                <div class="col-md-6">
+                    @if (Model.Declawed == true)
+                    {<h4 class="text-success"><span>@Html.DisplayFor(model => model.Declawed)</span> - Declawed</h4>}
+                else
+                {<h4 class="text-danger"><span>@Html.DisplayFor(model => model.Declawed)</span> - Declawed</h4>}
+
+                    @if (Model.GoodWithDogs == true)
+                    {<h4 class="text-success"><span>@Html.DisplayFor(model => model.GoodWithDogs)</span> - Good With Dogs</h4>}
+                else
+                {<h4 class="text-danger"><span>@Html.DisplayFor(model => model.GoodWithDogs)</span> - Good With Dogs</h4>}
+                    @if (Model.GoodWithCats == true)
+                    {<h4 class="text-success"><span>@Html.DisplayFor(model => model.GoodWithCats)</span> - Good With Other Cats</h4>}
+                else
+                {<h4 class="text-danger"><span>@Html.DisplayFor(model => model.GoodWithCats)</span> - Good With Other Cats</h4>}
+
+                    @if (Model.GoodWithKids == true)
+                    {<h4 class="text-success"><span>@Html.DisplayFor(model => model.GoodWithKids)</span> - Good With Kids</h4>}
+                else
+                {<h4 class="text-danger"><span>@Html.DisplayFor(model => model.GoodWithKids)</span> - Good With Kids</h4>}
+                </div>
+            </div>
+        </div>
+
+        <h2 class="pet-h">Food Requirements</h2>
+        <div id="food-req">
+            <p>
+                @Html.DisplayFor(model => model.FoodReq)
+            </p>
+        </div>
+
+        <h2 class="pet-h">Habitat Requirements</h2>
+        <div id="habitat-req">
+            <p>
+                @Html.DisplayFor(model => model.HabitatReq)
+            </p>
+        </div>
+    </div>
+    <div class="col-md-3">
+        <div id="img-1" class="cat-ad">
+            <a href="https://www.iams.com/cat-food"><img src="~/Images/cat-ad-1.jpg" /></a>
+        </div>
+
+        <div id="img-2" class="cat-ad">
+            <a href="https://www.ebay.com/itm/1982-Purina-Cat-Chow-Cute-Kittens-Vintage-Print-Ad-Advertising-Advertisement-/193274515058"><img src="~/Images/cat-ad-2.jpg" /></a>
+        </div>
+
+        <div id="img-3" class="cat-ad">
+            <a href="https://www.pinterest.com/pin/735775657849620383/"><img src="~/Images/cat-ad-3.png" /></a>
+        </div>
+    </div>
+
+</div>
+
+<form asp-action="Delete">
+    <input type="hidden" asp-for="CatId" />
+    <input type="submit" value="Delete" class="btn btn-danger" /> <span>|</span>
+    <a asp-action="Index">Back to List</a>
+</form>
+

@@ -1,0 +1,201 @@
+﻿@model PetAdopt.ViewModels.DisplayingPetsViewModel
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@{ ViewData["Title"] = "Home Page"; }</title>
+    <link href="~/css/styles/HomeIndexStyling.css" rel="stylesheet" />
+</head>
+
+<div class="container-fluid">
+    <h1 id="featured-rept-h1">Featured Reptiles For Adoption</h1>
+    <div class="row" id="featured-repts">
+        @foreach (var rept in Model.displayReptiles)
+        {
+            <div class="card mb-3 col-md-6">
+                <a asp-controller="Reptiles" asp-action="Details" asp-route-id="@rept.ReptileId">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img class="card-img" src="data:image/jpeg;base64,@Convert.ToBase64String(rept.Image)" alt="Reptile Images" />
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">@rept.Name</h5>
+                                <p class="card-text">@rept.Gender</p>
+                                <p class="card-text">@rept.Age</p>
+                                <p class="card-text">@rept.Size</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+        }
+    </div>
+
+    <div id="planning-section">
+        <h1 id="planning-h1">Planning To Adopt?</h1>
+
+        <div class="row">
+            <div class="col-md-4" id="checklist-adopter">
+                <div id="checklist-img" class="d-flex justify-content-center">
+                    <img src="~/Images/blue-book.png" />
+                </div>
+                <div id="checklist-text">
+                    <h5>Checklist for new adopters</h5>
+                    <p>Make the transition as smooth as possible.</p>
+                </div>
+                <div id="button" class="d-flex justify-content-center">
+                    <a href="https://www.petfinder.com/pet-adoption/dog-adoption/pet-adoption-checklist/" type="button" class="btn btn-light">Learn More</a>
+                </div>
+            </div>
+            <div class="col-md-4" id="finding-pet">
+                <div id="finding-pet-img" class="d-flex justify-content-center">
+                    <img src="~/Images/blue-binoculars.png" />
+                </div>
+                <div id="finding-pet-text">
+                    <h5>Finding the right pet</h5>
+                    <p>Tips & tricks on who you should adopt.</p>
+                </div>
+                <div id="button" class="d-flex justify-content-center">
+                    <a href="https://www.petfinder.com/blog/2015/03/4-tips-for-finding-the-right-pet-for-you/" type="button" class="btn btn-light">Learn More</a>
+                </div>
+            </div>
+            <div class="col-md-4" id="person-paw">
+                <div id="person-paw-img" class="d-flex justify-content-center">
+                    <img src="~/Images/person-paw.png" />
+                </div>
+                <div id="person-paw-text">
+                    <h5>Pet Adoption FAQs</h5>
+                    <p>Answers to your questions.</p>
+                </div>
+                <div id="button" class="d-flex justify-content-center">
+                    <a asp-controller="Home" asp-action="About" class="btn btn-light">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h1 id="featured-dog-h1">Featured Dogs For Adoption</h1>
+    <div class="row" id="featured-dogs">
+        @foreach (var dog in Model.displayDogs)
+        {
+            <div class="card mb-3 col-md-6">
+                <a asp-controller="Dogs" asp-action="Details" asp-route-id="@dog.DogId">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img class="card-img" src="data:image/jpeg;base64,@Convert.ToBase64String(dog.Image)" alt="Reptile Images" />
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">@dog.Name</h5>
+                                <p class="card-text">@dog.Gender</p>
+                                <p class="card-text">@dog.Age</p>
+                                <p class="card-text">@dog.Size</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+        }
+    </div>
+
+    <h1 id="stay-in-the-mix-h1">Stay In The Mix</h1>
+    <div class="card mb-3 blogs">
+        <div class="row no-gutters">
+            <div class="col-md-4">
+                <img class="card-img" src="~/Images/puppy-blogs.jpg" />
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h4 class="card-title">Just Got A Puppy? Check Out Some Blogs For Guidance!</h4>
+                    <p class="card-text">
+                        Lotsa pats shoober corgo puggo sub woofer, floofs puggorino heck, doing me a frighten thicc he made many woofs. Clouds puggorino puggo boofers pupper, wrinkler boof length boy, you are doing me a frighten very jealous pupper thicc.
+                    </p>
+                    <a href="https://blog.feedspot.com/puppy_blogs/">
+                        Learn More
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card mb-3 blogs">
+        <div class="row no-gutters">
+            <div class="col-md-4">
+                <img class="card-img" src="~/Images/turtle-blogs.jpg" />
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h4 class="card-title">Aquarium Guides: Top Turtle Tanks.</h4>
+                    <p class="card-text">
+                        Lotsa pats shoober corgo puggo sub woofer, floofs puggorino heck, doing me a frighten thicc he made many woofs. Clouds puggorino puggo boofers pupper, wrinkler boof length boy, you are doing me a frighten very jealous pupper thicc.
+                    </p>
+                    <a href="https://www.thecrittercove.com/best-turtle-tank">
+                        Learn More
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="card mb-3 blogs">
+        <div class="row no-gutters">
+            <div class="col-md-4">
+                <img class="card-img" src="~/Images/cat-blogs.jpg" />
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                    <h4 class="card-title">Best Cat Toys On The Market!</h4>
+                    <p class="card-text">
+                        Lotsa pats shoober corgo puggo sub woofer, floofs puggorino heck, doing me a frighten thicc he made many woofs. Clouds puggorino puggo boofers pupper, wrinkler boof length boy, you are doing me a frighten very jealous pupper thicc.
+                    </p>
+                    <a href="https://www.mypetneedsthat.com/best-cat-toys/">
+                        Learn More
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <h1 id="featured-cat-h1">Featured Cats For Adoption</h1>
+    <div class="row" id="featured-cats">
+        @foreach (var cat in Model.displayCats)
+        {
+            <div class="card mb-3 col-md-6">
+                <a asp-controller="Cats" asp-action="Details" asp-route-id="@cat.CatId">
+                    <div class="row no-gutters">
+                        <div class="col-md-4">
+                            <img class="card-img" src="data:image/jpeg;base64,@Convert.ToBase64String(cat.Image)" alt="Reptile Images" />
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">@cat.Name</h5>
+                                <p class="card-text">@cat.Gender</p>
+                                <p class="card-text">@cat.Age</p>
+                                <p class="card-text">@cat.Size</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+        }
+    </div>
+    <h1 id="adopt-tips-h1">Pet Adoption Tips</h1>
+    <div id="adopt-tips">
+        <h3 id="adopt-tips-h3">Why Adopt Over Shop?</h3>
+        <p id="adopt-tips-p">
+            Lorem ipsum dolor sit amet, nec iudico bonorum delectus te, placerat recteque vituperatoribus te nec, ad quot tractatos vel. Cum tota prima ei. Te quaeque singulis eum, vel eu unum velit, te populo detracto appellantur pri. Ex usu ignota iriure animal, ne mel justo iudico option, eu quot maiorum omnesque quo. Cum duis fastidii ne, has et accusam voluptaria incorrupte. Sit habeo recteque adversarium ei, mei illud commune eligendi te, cetero commodo complectitur mea ne. Has in etiam quando lucilius.
+            Lorem ipsum dolor sit amet, nec iudico bonorum delectus te, placerat recteque vituperatoribus te nec, ad quot tractatos vel. Cum tota prima ei. Te quaeque singulis eum, vel eu unum velit, te populo detracto appellantur pri. Ex usu ignota iriure animal, ne mel justo iudico option, eu quot maiorum omnesque quo. Cum duis fastidii ne, has et accusam voluptaria incorrupte. Sit habeo recteque adversarium ei, mei illud commune eligendi te, cetero commodo complectitur mea ne. Has in etiam quando lucilius.
+
+        </p>
+    </div>
+</div>
+
+
+
+
+
+

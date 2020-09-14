@@ -1,0 +1,26 @@
+﻿body div.container main.pb-3 h1 {
+  color: #000000;
+  text-transform: capitalize;
+  font-family: "Lora", serif;
+  margin-top: 5%;
+  margin-bottom: 5%; }
+
+body div.container main.pb-3 form h4 {
+  color: #000000;
+  text-transform: capitalize;
+  font-family: "Lora", serif;
+  margin-bottom: 5%; }
+
+body div.container main.pb-3 form div.row div.col-md-6 div.form-group.form-check h5 {
+  color: #000000;
+  font-family: "Lora", serif; }
+
+body div.container main.pb-3 form button.btn.btn-primary {
+  background: #ffffff;
+  color: #00A7DE;
+  border-color: #00A7DE;
+  font-family: "Merriweather", serif; }
+  body div.container main.pb-3 form button.btn.btn-primary:hover {
+    background-color: #00A7DE;
+    color: #ffffff;
+    border-color: #00A7DE; }

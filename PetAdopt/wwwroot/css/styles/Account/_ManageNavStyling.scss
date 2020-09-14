@@ -1,0 +1,31 @@
+﻿@import '../Global.scss';
+
+
+div.container {
+    main.pb-3 {
+        div {
+            div.row {
+                div.col-md-3 {
+                    margin-top: 5%;
+
+                    ul.nav.nav-pills.flex-column {
+                        background-color: $user-grey;
+                        border-radius: 6px 6px 6px 6px;
+                        height: 100%;
+
+                        li.nav-item {
+                            a.nav-link {
+                                color: $user-blue;
+                                font-family: $lil-font;                               
+                            }
+
+                            a.nav-link.active {
+                                background-color: $user-orange;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

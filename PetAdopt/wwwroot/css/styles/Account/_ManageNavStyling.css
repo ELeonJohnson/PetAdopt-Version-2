@@ -1,0 +1,11 @@
+﻿div.container main.pb-3 div div.row div.col-md-3 {
+  margin-top: 5%; }
+  div.container main.pb-3 div div.row div.col-md-3 ul.nav.nav-pills.flex-column {
+    background-color: #BBBCBD;
+    border-radius: 6px 6px 6px 6px;
+    height: 100%; }
+    div.container main.pb-3 div div.row div.col-md-3 ul.nav.nav-pills.flex-column li.nav-item a.nav-link {
+      color: #0F2845;
+      font-family: "Merriweather", serif; }
+    div.container main.pb-3 div div.row div.col-md-3 ul.nav.nav-pills.flex-column li.nav-item a.nav-link.active {
+      background-color: #DA765D; }

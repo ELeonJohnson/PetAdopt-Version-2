@@ -1,0 +1,47 @@
+﻿@import '../Global.scss';
+
+body {
+    div.container {
+        main.pb-3 {
+            h1 {
+                color: $black;
+                text-transform: capitalize;
+                font-family: $big-font;
+                margin-top: 5%;
+                margin-bottom: 5%;
+            }
+
+            form {
+                h4 {
+                    color: $black;
+                    text-transform: capitalize;
+                    font-family: $big-font;
+                    margin-bottom: 5%;
+                }
+
+                div.row {
+                    div.col-md-6 {
+                        div.form-group.form-check {
+                            h5 {
+                                color: $black;
+                                font-family: $big-font;
+                            }
+                        }
+                    }
+                }
+                button.btn.btn-primary {
+                    background: $white;
+                    color: $search-blue-background;
+                    border-color: $search-blue-background;
+                    font-family: $lil-font;
+
+                    &:hover {
+                        background-color: $search-blue-background;
+                        color: $white;
+                        border-color: $search-blue-background;
+                    }
+                }
+            }
+        }
+    }
+}

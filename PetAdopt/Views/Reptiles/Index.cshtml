@@ -1,0 +1,131 @@
+﻿@*@model IEnumerable<PetAdopt.Models.Reptile>*@
+@model PetAdopt.ViewModels.ReptileViewModel
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+
+@{
+    ViewData["Title"] = "Reptiles";
+    <link href="~/css/styles/Reptile/IndexStyling.css" rel="stylesheet" />
+
+}
+
+<h1>View Our Reptiles</h1>
+
+<h5>
+    <a asp-action="Create">Add A Reptile</a>
+</h5>
+
+<div class="row">
+    <div id="sidebar" class="col-md-3">
+        <div id="find-rept-promo">
+            <img src="~/Images/reptile-index-logo.png" />
+            <h3>Find The Right Reptile For You</h3>
+            <p>Camptosaurus Iliosuchus Paluxysaurus Atsinganosaurus Saurophagus.</p>
+            <div id="find-rept-promo-footer">
+                <a href="https://www.wikihow.com/Choose-the-Right-Reptile-as-a-Pet">Research</a>
+            </div>
+        </div>
+
+        <form asp-controller="Reptiles" asp-action="Index" method="get">
+            <div class="form-group">
+                <label asp-for="reptileGender">GENDER</label>
+                <select class="form-control form-control-lg" asp-for="reptileGender" asp-items="Model.genders">
+                    <option selected disabled hidden>Any</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="reptileAge">AGE</label>
+                <select class="form-control form-control-lg" asp-for="reptileAge" asp-items="Model.ages">
+                    <option selected disabled hidden>Any</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="reptileType">TYPE</label>
+                <select class="form-control form-control-lg" asp-for="reptileType" asp-items="Model.types">
+                    <option selected disabled hidden>Any</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="reptileSize">SIZE</label>
+                <select class="form-control form-control-lg" asp-for="reptileSize" asp-items="Model.sizes">
+                    <option selected disabled hidden>Any</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="reptileColor">COLOR</label>
+                <select class="form-control form-control-lg" asp-for="reptileColor" asp-items="Model.colors">
+                    <option selected disabled hidden>Any</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>NAME</label>
+                <input class="form-control form-control-lg" placeholder="Any" type="text" name="SearchString" />
+            </div>
+
+            <button type="submit" value="Filter" class="btn btn-default">Search</button>
+            <span>|</span>
+            <a asp-action="Index">Back to Full List</a>
+
+        </form>
+    </div>
+
+
+
+    <div id="pet-results" class="col-md-9">
+        <div class="row">
+            @foreach (var rept in Model.reptiles)
+            {
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img" src="data:image/jpeg;base64,@Convert.ToBase64String(rept.Image)" />
+                        <div class="card-body">
+                            <h5 class="card-title">@Html.DisplayFor(modelItem => rept.Name)</h5>
+                            <p class="card-text">@Html.DisplayFor(modelItem => rept.Age)</p>
+                            <p class="card-text">@Html.DisplayFor(modelItem => rept.Gender)</p>
+                        </div>
+
+                        <div id="rept-row" class="row">
+                            @if (SignInManager.IsSignedIn(User) && Int32.Parse(UserManager.GetUserId(User)) == rept.ApplicationUserId)
+                            {
+                                <div class="col-md-4">
+                                    <a asp-action="Details" asp-route-id="@rept.ReptileId">Details</a>
+                                </div>
+
+                                <div class="col-md-4 edit-btn">
+                                    <a asp-action="Edit" asp-route-id="@rept.ReptileId">Edit</a>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <a asp-action="Delete" asp-route-id="@rept.ReptileId">Delete </a>
+                                </div>
+
+                            }
+                            else
+                            {
+                                <div class="col-md-4">
+                                    <a asp-action="Details" asp-route-id="@rept.ReptileId">Details</a>
+                                </div>
+
+                            }
+                        </div>
+
+                    </div>
+                </div>
+
+            }
+        </div>
+      
+    </div>
+</div>
+
+@section Scripts {
+    
+
+}

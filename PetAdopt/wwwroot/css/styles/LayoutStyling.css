@@ -1,0 +1,70 @@
+﻿body div#banner {
+  background-color: #FFCC1B;
+  padding: .9%; }
+  body div#banner div.banner-img.d-flex img#close-banner.ml-auto {
+    cursor: pointer; }
+  body div#banner div.d-block {
+    text-align: center; }
+    body div#banner div.d-block h3 {
+      font-weight: 700;
+      font-family: "Lora", serif;
+      font-size: 1.625rem; }
+    body div#banner div.d-block h4 {
+      font-weight: 400;
+      font-family: "Merriweather", serif;
+      font-size: 1.25rem; }
+    body div#banner div.d-block a .btn.btn-success {
+      font-family: "Lora", serif;
+      color: #ffffff; }
+
+body div#header-marketing.d-flex.justify-content-around {
+  margin-top: 1%; }
+  body div#header-marketing.d-flex.justify-content-around div#header-logo-adopter {
+    margin: auto 0; }
+    body div#header-marketing.d-flex.justify-content-around div#header-logo-adopter img#adopter-logo {
+      width: 150px;
+      height: 95px;
+      margin-left: 15% !important; }
+    body div#header-marketing.d-flex.justify-content-around div#header-logo-adopter p#adopter-text.mt-2 {
+      color: #000000;
+      font-family: "Merriweather", serif;
+      text-transform: uppercase; }
+  body div#header-marketing.d-flex.justify-content-around div#header-logo-adoption {
+    margin: auto 0; }
+    body div#header-marketing.d-flex.justify-content-around div#header-logo-adoption img#adoption-logo {
+      width: 150px;
+      height: 100px !important;
+      margin-left: 15% !important; }
+    body div#header-marketing.d-flex.justify-content-around div#header-logo-adoption p#adoption-text.mt-2 {
+      color: #000000;
+      font-family: "Merriweather", serif;
+      text-transform: uppercase; }
+
+body header nav.navbar.navbar-expand-sm.navbar-toggleable-sm.navbar-light.bg-white.border-bottom.box-shadow.mb-3 {
+  box-shadow: 0px 20px 50px 0px rgba(216, 216, 216, 0.8); }
+  body header nav.navbar.navbar-expand-sm.navbar-toggleable-sm.navbar-light.bg-white.border-bottom.box-shadow.mb-3 div.container a.navbar-brand {
+    font-family: "Lora", serif !important;
+    color: #000000 !important; }
+    body header nav.navbar.navbar-expand-sm.navbar-toggleable-sm.navbar-light.bg-white.border-bottom.box-shadow.mb-3 div.container a.navbar-brand:hover {
+      color: #b4b2b3 !important; }
+  body header nav.navbar.navbar-expand-sm.navbar-toggleable-sm.navbar-light.bg-white.border-bottom.box-shadow.mb-3 div.container div.navbar-collapse.collapse.d-sm-inline-flex.flex-sm-row-reverse ul.navbar-nav li.nav-item a.nav-link.text-dark {
+    font-family: "Merriweather", serif;
+    color: #000000; }
+    body header nav.navbar.navbar-expand-sm.navbar-toggleable-sm.navbar-light.bg-white.border-bottom.box-shadow.mb-3 div.container div.navbar-collapse.collapse.d-sm-inline-flex.flex-sm-row-reverse ul.navbar-nav li.nav-item a.nav-link.text-dark:hover {
+      color: #b4b2b3 !important; }
+  body header nav.navbar.navbar-expand-sm.navbar-toggleable-sm.navbar-light.bg-white.border-bottom.box-shadow.mb-3 div.container div.navbar-collapse.collapse.d-sm-inline-flex.flex-sm-row-reverse ul.navbar-nav.flex-grow-1 li.nav-item a.nav-link.text-dark {
+    font-family: "Merriweather", serif;
+    color: #000000; }
+    body header nav.navbar.navbar-expand-sm.navbar-toggleable-sm.navbar-light.bg-white.border-bottom.box-shadow.mb-3 div.container div.navbar-collapse.collapse.d-sm-inline-flex.flex-sm-row-reverse ul.navbar-nav.flex-grow-1 li.nav-item a.nav-link.text-dark:hover {
+      color: #b4b2b3 !important; }
+
+body footer.border-top.footer.text-muted div.container {
+  text-align: center;
+  color: #000000;
+  font-family: "Merriweather", serif; }
+  body footer.border-top.footer.text-muted div.container div#flat-icon a {
+    color: #000000 !important;
+    font-family: "Merriweather", serif;
+    font-size: 10px; }
+    body footer.border-top.footer.text-muted div.container div#flat-icon a:hover {
+      text-decoration: none; }

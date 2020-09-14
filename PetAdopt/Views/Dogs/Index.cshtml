@@ -1,0 +1,129 @@
+﻿@*@model IEnumerable<PetAdopt.Models.Reptile>*@
+@model PetAdopt.ViewModels.DogViewModel
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+@{
+    ViewData["Title"] = "Index";
+    <link href="~/css/styles/Dog/IndexStyling.css" rel="stylesheet" />
+}
+
+<h1>View Our Dogs</h1>
+
+<h5>
+    <a asp-action="Create">Add A Dog</a>
+</h5>
+
+<div class="row">
+    <div id="sidebar" class="col-md-3">
+        <div id="find-dog-promo">
+            <img src="~/Images/dog-index-logo.png" />
+            <h3>Find The Right <br /> Dog For You</h3>
+            <p>Aqua doggo long bois shooberino long woofer, mlem.</p>
+            <div id="find-dog-promo-footer">
+                <a href="https://www.thesprucepets.com/how-to-choose-the-right-dog-1117320#:~:text=Look%20at%20the%20needs%20of,age%20of%20your%20new%20dog.">Research</a>
+            </div>
+        </div>
+
+        <form asp-controller="Dogs" asp-action="Index" method="get">
+            <div class="form-group">
+                <label asp-for="dogGender">GENDER</label>
+                <select class="form-control form-control-lg" asp-for="dogGender" asp-items="Model.genders">
+                    <option selected disabled hidden>Any</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="dogAge">AGE</label>
+                <select class="form-control form-control-lg" asp-for="dogAge" asp-items="Model.ages">
+                    <option selected disabled hidden>Any</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="dogType">TYPE</label>
+                <select class="form-control form-control-lg" asp-for="dogType" asp-items="Model.types">
+                    <option selected disabled hidden>Any</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="dogSize">SIZE</label>
+                <select class="form-control form-control-lg" asp-for="dogSize" asp-items="Model.sizes">
+                    <option selected disabled hidden>Any</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="dogColor">COLOR</label>
+                <select class="form-control form-control-lg" asp-for="dogColor" asp-items="Model.colors">
+                    <option selected disabled hidden>Any</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>NAME</label>
+                <input class="form-control form-control-lg" placeholder="Any" type="text" name="SearchString" />
+            </div>
+
+            <button type="submit" value="Filter" class="btn btn-default">Search</button>
+            <span>|</span>
+            <a asp-action="Index">Back to Full List</a>
+
+        </form>
+    </div>
+
+
+
+    <div id="pet-results" class="col-md-9">
+        <div class="row">
+            @foreach (var dog in Model.dogs)
+            {
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img" src="data:image/jpeg;base64,@Convert.ToBase64String(dog.Image)" />
+                        <div class="card-body">
+                            <h5 class="card-title">@Html.DisplayFor(modelItem => dog.Name)</h5>
+                            <p class="card-text">@Html.DisplayFor(modelItem => dog.Age)</p>
+                            <p class="card-text">@Html.DisplayFor(modelItem => dog.Gender)</p>
+                        </div>
+
+                        <div id="dog-row" class="row">
+                            @if (SignInManager.IsSignedIn(User) && Int32.Parse(UserManager.GetUserId(User)) == dog.ApplicationUserId)
+                            {
+                                <div class="col-md-4">
+                                    <a asp-action="Details" asp-route-id="@dog.DogId">Details</a>
+                                </div>
+
+                                <div class="col-md-4 edit-btn">
+                                    <a asp-action="Edit" asp-route-id="@dog.DogId">Edit</a>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <a asp-action="Delete" asp-route-id="@dog.DogId">Delete </a>
+                                </div>
+
+                            }
+                            else
+                            {
+                                <div class="col-md-4">
+                                    <a asp-action="Details" asp-route-id="@dog.DogId">Details</a>
+                                </div>
+
+                            }
+                        </div>
+
+                    </div>
+                </div>
+
+            }
+        </div>
+
+    </div>
+</div>
+
+@section Scripts {
+
+
+}

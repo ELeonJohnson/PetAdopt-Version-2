@@ -1,0 +1,124 @@
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\bin\Debug\netcoreapp2.2\PetAdopt.deps.json
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\bin\Debug\netcoreapp2.2\PetAdopt.runtimeconfig.json
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\bin\Debug\netcoreapp2.2\PetAdopt.runtimeconfig.dev.json
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\bin\Debug\netcoreapp2.2\PetAdopt.dll
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\bin\Debug\netcoreapp2.2\PetAdopt.pdb
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\bin\Debug\netcoreapp2.2\PetAdopt.Views.dll
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\bin\Debug\netcoreapp2.2\PetAdopt.Views.pdb
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\PetAdopt.csprojAssemblyReference.cache
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\PetAdopt.csproj.CoreCompileInputs.cache
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\PetAdopt.RazorAssemblyInfo.cache
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\PetAdopt.RazorAssemblyInfo.cs
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\PetAdopt.AssemblyInfoInputs.cache
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\PetAdopt.AssemblyInfo.cs
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\PetAdopt.TagHelpers.input.cache
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\PetAdopt.TagHelpers.output.cache
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\PetAdopt.RazorCoreGenerate.cache
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\PetAdopt.RazorTargetAssemblyInfo.cache
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\PetAdopt.RazorTargetAssemblyInfo.cs
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\PetAdopt.Views.pdb
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\PetAdopt.dll
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\PetAdopt.pdb
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\PetAdopt.csproj.CopyComplete
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Login.g.cshtml.cs
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\Index.g.cshtml.cs
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\_ManageNav.g.cshtml.cs
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.g.cshtml.cs
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Register.g.cshtml.cs
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ResetPassword.g.cshtml.cs
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\_ViewImports.g.cshtml.cs
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Views\Cats\Create.g.cshtml.cs
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Views\Cats\Delete.g.cshtml.cs
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Views\Cats\Details.g.cshtml.cs
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Views\Cats\Edit.g.cshtml.cs
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Views\Cats\Index.g.cshtml.cs
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Views\Dogs\Create.g.cshtml.cs
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Views\Dogs\Delete.g.cshtml.cs
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Views\Dogs\Details.g.cshtml.cs
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Views\Dogs\Edit.g.cshtml.cs
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Views\Dogs\Index.g.cshtml.cs
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Views\Reptiles\Create.g.cshtml.cs
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Views\Reptiles\Delete.g.cshtml.cs
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Views\Reptiles\Details.g.cshtml.cs
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Views\Reptiles\Edit.g.cshtml.cs
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Views\Reptiles\Index.g.cshtml.cs
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Views\Roles\Create.g.cshtml.cs
+C:\Users\Enoch\source\repos\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Views\Roles\Index.g.cshtml.cs
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\bin\Debug\netcoreapp2.2\PetAdopt.deps.json
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\bin\Debug\netcoreapp2.2\PetAdopt.runtimeconfig.json
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\bin\Debug\netcoreapp2.2\PetAdopt.runtimeconfig.dev.json
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\bin\Debug\netcoreapp2.2\PetAdopt.dll
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\bin\Debug\netcoreapp2.2\PetAdopt.pdb
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\bin\Debug\netcoreapp2.2\PetAdopt.Views.dll
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\bin\Debug\netcoreapp2.2\PetAdopt.Views.pdb
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\PetAdopt.csprojAssemblyReference.cache
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\PetAdopt.csproj.CoreCompileInputs.cache
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\PetAdopt.RazorAssemblyInfo.cache
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\PetAdopt.RazorAssemblyInfo.cs
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\PetAdopt.AssemblyInfoInputs.cache
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\PetAdopt.AssemblyInfo.cs
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\PetAdopt.TagHelpers.input.cache
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\PetAdopt.TagHelpers.output.cache
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\PetAdopt.RazorCoreGenerate.cache
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\PetAdopt.RazorTargetAssemblyInfo.cache
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\PetAdopt.RazorTargetAssemblyInfo.cs
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\PetAdopt.Views.pdb
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\PetAdopt.dll
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\PetAdopt.pdb
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\PetAdopt.csproj.CopyComplete
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\bin\Debug\netcoreapp2.2\appsettings.Development.json
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\bin\Debug\netcoreapp2.2\appsettings.json
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\bin\Debug\netcoreapp2.2\Properties\launchSettings.json
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Login.cshtml.g.cs
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\ChangePassword.cshtml.g.cs
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\DownloadPersonalData.cshtml.g.cs
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\EditProfile.cshtml.g.cs
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\Index.cshtml.g.cs
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\PersonalData.cshtml.g.cs
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\_Layout.cshtml.g.cs
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\_ManageNav.cshtml.g.cs
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Manage\_ViewImports.cshtml.g.cs
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\Register.cshtml.g.cs
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ResetPassword.cshtml.g.cs
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Views\Account\ListAdopters.cshtml.g.cs
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Views\Account\ListOwners.cshtml.g.cs
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Views\Cats\Create.cshtml.g.cs
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Views\Cats\Delete.cshtml.g.cs
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Views\Cats\Details.cshtml.g.cs
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Views\Cats\Edit.cshtml.g.cs
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Views\Cats\Index.cshtml.g.cs
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Views\Dogs\Create.cshtml.g.cs
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Views\Dogs\Delete.cshtml.g.cs
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Views\Dogs\Details.cshtml.g.cs
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Views\Dogs\Edit.cshtml.g.cs
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Views\Dogs\Index.cshtml.g.cs
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Views\Home\About.cshtml.g.cs
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Views\Reptiles\Create.cshtml.g.cs
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Views\Reptiles\Delete.cshtml.g.cs
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Views\Reptiles\Details.cshtml.g.cs
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Views\Reptiles\Edit.cshtml.g.cs
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Views\Reptiles\Index.cshtml.g.cs
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Views\Roles\Create.cshtml.g.cs
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Views\Roles\Index.cshtml.g.cs
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Enoch\Desktop\Projects For Portfolio\PetAdopt\PetAdopt\obj\Debug\netcoreapp2.2\PetAdopt.genruntimeconfig.cache

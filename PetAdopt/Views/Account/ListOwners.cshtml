@@ -1,0 +1,86 @@
+﻿@model PetAdopt.ViewModels.OwnerViewModel
+
+
+@{
+    ViewBag.Title = "Owners";
+    <link href="~/css/styles/Account/ListOwnersStyling.css" rel="stylesheet" />
+    
+}
+
+<h1>View Our Owners</h1>
+
+<h5>
+    <a asp-area="Identity" asp-page="/Account/Register">Join Our Site</a>
+</h5>
+
+<div class="row">
+    <div id="sidebar" class="col-md-3">
+        <div id="find-owner-promo">
+            <img src="~/Images/owner-index-icon.png" />
+            <h3>How To <br /> Rehome Your Pet</h3>
+            <p>Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
+            <div id="find-owner-promo-footer">
+                <a href="https://rehome.adoptapet.com/">Research</a>
+            </div>
+        </div>
+
+        <form asp-controller="Account" asp-action="ListOwners" method="get">
+            <div class="form-group">
+                <label asp-for="ownerState">STATE</label>
+                <select class="form-control form-control-lg" asp-for="ownerState" asp-items="Model.states">
+                    <option selected disabled hidden>Any</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label asp-for="ownerCity">CITY</label>
+                <select class="form-control form-control-lg" asp-for="ownerCity" asp-items="Model.cities">
+                    <option selected disabled hidden>Any</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label asp-for="ownerFirstName">FIRSTNAME</label>
+                <select class="form-control form-control-lg" asp-for="ownerFirstName" asp-items="Model.firstNames">
+                    <option selected disabled hidden>Any</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label asp-for="ownerLastName">LASTNAME</label>
+                <select class="form-control form-control-lg" asp-for="ownerLastName" asp-items="Model.lastNames">
+                    <option selected disabled hidden>Any</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label>USERNAME</label>
+                <input class="form-control form-control-lg" placeholder="Any" type="text" name="SearchString" />
+            </div>
+
+            <button type="submit" value="Filter" class="btn btn-default">Search</button>
+            <span>|</span>
+            <a asp-action="ListOwners">Back to Full List</a>
+
+        </form>
+    </div>
+
+    <div id="owner-results" class="col-md-9">
+        <div class="row">
+            @foreach (var owner in Model.owners)
+            {
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img" src="data:image/jpeg;base64,@Convert.ToBase64String(owner.Image)" />
+                        <div class="card-body">
+                            <h5 class="card-title">@Html.DisplayFor(modelItem => owner.UserName)</h5>
+                            <p class="card-text">@Html.DisplayFor(modelItem => owner.City)</p>
+                            <p class="card-text">@Html.DisplayFor(modelItem => owner.State)</p>
+                        </div>
+                        <div id="owner-row" class="row">
+                            <div class="col-md-12">
+                                <a asp-area="Identity" asp-page="/Account/Manage/Index" asp-route-id="@owner.Id">Profile</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</div>

@@ -1,0 +1,122 @@
+﻿[
+  {
+    "outputFile": "wwwroot/css/styles/Global.css",
+    "inputFile": "wwwroot/css/styles/Global.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/styles/LayoutStyling.css",
+    "inputFile": "wwwroot/css/styles/LayoutStyling.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/styles/HomeIndexStyling.css",
+    "inputFile": "wwwroot/css/styles/HomeIndexStyling.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/styles/ReptileIndexStyling.css",
+    "inputFile": "wwwroot/css/styles/ReptileIndexStyling.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/styles/ReptileDetailsStyling.css",
+    "inputFile": "wwwroot/css/styles/ReptileDetailsStyling.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/styles/ReptileCreateStyling.css",
+    "inputFile": "wwwroot/css/styles/ReptileCreateStyling.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/styles/ReptileEditStyling.css",
+    "inputFile": "wwwroot/css/styles/ReptileEditStyling.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/styles/ReptileDeleteStyling.css",
+    "inputFile": "wwwroot/css/styles/ReptileDeleteStyling.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/styles/Dog/IndexStyling.css",
+    "inputFile": "wwwroot/css/styles/Dog/IndexStyling.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/styles/Dog/DetailsStyling.css",
+    "inputFile": "wwwroot/css/styles/Dog/DetailsStyling.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/styles/Dog/EditStyling.css",
+    "inputFile": "wwwroot/css/styles/Dog/EditStyling.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/styles/Reptile/DetailsStyling.css",
+    "inputFile": "wwwroot/css/styles/Reptile/DetailsStyling.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/styles/Dog/DeleteStyling.css",
+    "inputFile": "wwwroot/css/styles/Dog/DeleteStyling.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/styles/Reptile/DeleteStyling.css",
+    "inputFile": "wwwroot/css/styles/Reptile/DeleteStyling.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/styles/Dog/CreateStyling.css",
+    "inputFile": "wwwroot/css/styles/Dog/CreateStyling.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/styles/Cat/IndexStyling.css",
+    "inputFile": "wwwroot/css/styles/Cat/IndexStyling.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/styles/Cat/CreateStyling.css",
+    "inputFile": "wwwroot/css/styles/Cat/CreateStyling.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/styles/Cat/DetailsStyling.css",
+    "inputFile": "wwwroot/css/styles/Cat/DetailsStyling.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/styles/Cat/DeleteStyling.css",
+    "inputFile": "wwwroot/css/styles/Cat/DeleteStyling.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/styles/Cat/EditStyling.css",
+    "inputFile": "wwwroot/css/styles/Cat/EditStyling.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/styles/Account/ListOwnersStyling.css",
+    "inputFile": "wwwroot/css/styles/Account/ListOwnersStyling.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/styles/Account/ListAdoptersStyling.css",
+    "inputFile": "wwwroot/css/styles/Account/ListAdoptersStyling.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/styles/Account/RegisterStyling.css",
+    "inputFile": "wwwroot/css/styles/Account/RegisterStyling.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/styles/Account/LoginStyling.css",
+    "inputFile": "wwwroot/css/styles/Account/LoginStyling.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/styles/Account/IndexStyling.css",
+    "inputFile": "wwwroot/css/styles/Account/IndexStyling.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/styles/Account/EditProfileStyling.css",
+    "inputFile": "wwwroot/css/styles/Account/EditProfileStyling.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/styles/Account/ManageNavStyling.css",
+    "inputFile": "wwwroot/css/styles/Account/ManageNavStyling.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/styles/Account/_ManageNavStyling.css",
+    "inputFile": "wwwroot/css/styles/Account/_ManageNavStyling.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/styles/Account/ChangePasswordStyling.css",
+    "inputFile": "wwwroot/css/styles/Account/ChangePasswordStyling.scss"
+  },
+  {
+    "outputFile": "wwwroot/css/styles/Account/DeleteStyling.css",
+    "inputFile": "wwwroot/css/styles/Account/DeleteStyling.scss"
+  }
+]

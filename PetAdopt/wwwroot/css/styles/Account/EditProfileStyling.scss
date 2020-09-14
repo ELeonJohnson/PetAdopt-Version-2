@@ -1,0 +1,66 @@
+﻿@import '../Global.scss';
+
+
+div.container {
+    main.pb-3 {
+        div {
+            div.row {
+                div.col-md-9 {
+                    margin-top: 5%;
+
+                    h1 {
+                        font-family: $big-font;
+                        color: $black;
+                    }
+
+                    form#profile-form {
+                        div.row {
+                            div.col-md-6 {
+                                div.form-group {
+                                    label {
+                                        color: $black;
+                                        font-family: $lil-font;
+                                    }
+                                }
+
+                                div.form-group.form-check {
+
+                                    p {
+                                        color: $black;
+                                        font-family: $lil-font;
+                                    }
+
+                                    img {
+                                        width: 50%;
+                                        border-radius: 6px;
+                                    }
+
+                                    input#imageInput {
+                                        margin-top: 5%;
+                                    }
+                                }
+                            }
+                        }
+                        div.row {
+                            div.col-md-12 {
+                                button#update-profile-button.btn {
+                                    font-family: $lil-font;
+                                    border-color: $user-grey;
+                                    color: $user-blue !important;
+                                    background-color: $user-grey;
+
+                                    &:hover {
+                                        border-color: $user-orange;
+                                        background-color: $user-orange;
+                                        color: $user-blue;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

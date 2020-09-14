@@ -1,0 +1,49 @@
+﻿h1 {
+  color: #000000;
+  text-transform: capitalize;
+  font-family: "Lora", serif;
+  margin-top: 5%;
+  margin-bottom: 5%; }
+
+form h2 {
+  color: #000000;
+  text-transform: capitalize;
+  font-family: "Lora", serif;
+  margin-top: 5%; }
+
+form p#p-apply-check {
+  color: #4D4D4D;
+  font-family: "Merriweather", serif;
+  margin-bottom: 5%; }
+
+form div.row div.col-md-6 div.form-group.form-check {
+  margin-bottom: 10%; }
+  form div.row div.col-md-6 div.form-group.form-check h5 {
+    color: #000000;
+    font-family: "Lora", serif; }
+  form div.row div.col-md-6 div.form-group.form-check label.form-check-label {
+    margin-left: 4%;
+    color: #4D4D4D;
+    font-family: "Merriweather", serif; }
+
+form div.row div.col-md-12 h5 {
+  color: #000000;
+  font-family: "Lora", serif; }
+
+form div.row div.col-md-12 div.form-group input.btn {
+  color: #a4bfd9;
+  border-color: #a4bfd9;
+  background-color: #ffffff;
+  margin-right: 15%; }
+  form div.row div.col-md-12 div.form-group input.btn:hover {
+    color: #ffffff;
+    background-color: #5b92cb;
+    border-color: #5b92cb; }
+
+form div.row div.col-md-12 div a {
+  color: #000000;
+  font-family: "Merriweather", serif;
+  text-transform: capitalize; }
+  form div.row div.col-md-12 div a:hover {
+    color: #a4bfd9;
+    text-decoration: none; }

@@ -1,0 +1,129 @@
+﻿@*@model IEnumerable<PetAdopt.Models.Reptile>*@
+@model PetAdopt.ViewModels.CatViewModel
+@using Microsoft.AspNetCore.Identity
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+
+@{
+    ViewData["Title"] = "Index";
+    <link href="~/css/styles/Cat/IndexStyling.css" rel="stylesheet" />
+}
+
+<h1>View Our Cats</h1>
+
+<h5>
+    <a asp-action="Create">Add A Cat</a>
+</h5>
+
+<div class="row">
+    <div id="sidebar" class="col-md-3">
+        <div id="find-cat-promo">
+            <img src="~/Images/cat-index-logo.png" />
+            <h3>Find The Right <br /> Cat For You</h3>
+            <p>Scratch hack up furballs for stare at guinea pigs .</p>
+            <div id="find-cat-promo-footer">
+                <a href="https://www.hillspet.com/cat-care/new-pet-parent/choosing-the-best-cat-breed-personality">Research</a>
+            </div>
+        </div>
+
+        <form asp-controller="Cats" asp-action="Index" method="get">
+            <div class="form-group">
+                <label asp-for="catGender">GENDER</label>
+                <select class="form-control form-control-lg" asp-for="catGender" asp-items="Model.genders">
+                    <option selected disabled hidden>Any</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="catAge">AGE</label>
+                <select class="form-control form-control-lg" asp-for="catAge" asp-items="Model.ages">
+                    <option selected disabled hidden>Any</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="catType">TYPE</label>
+                <select class="form-control form-control-lg" asp-for="catType" asp-items="Model.types">
+                    <option selected disabled hidden>Any</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="catSize">SIZE</label>
+                <select class="form-control form-control-lg" asp-for="catSize" asp-items="Model.sizes">
+                    <option selected disabled hidden>Any</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="catColor">COLOR</label>
+                <select class="form-control form-control-lg" asp-for="catColor" asp-items="Model.colors">
+                    <option selected disabled hidden>Any</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>NAME</label>
+                <input class="form-control form-control-lg" placeholder="Any" type="text" name="SearchString" />
+            </div>
+
+            <button type="submit" value="Filter" class="btn btn-default">Search</button>
+            <span>|</span>
+            <a asp-action="Index">Back to Full List</a>
+
+        </form>
+    </div>
+
+
+
+    <div id="pet-results" class="col-md-9">
+        <div class="row">
+            @foreach (var cat in Model.cats)
+            {
+                <div class="col-md-4">
+                    <div class="card">
+                        <img class="card-img" src="data:image/jpeg;base64,@Convert.ToBase64String(cat.Image)" />
+                        <div class="card-body">
+                            <h5 class="card-title">@Html.DisplayFor(modelItem => cat.Name)</h5>
+                            <p class="card-text">@Html.DisplayFor(modelItem => cat.Age)</p>
+                            <p class="card-text">@Html.DisplayFor(modelItem => cat.Gender)</p>
+                        </div>
+
+                        <div id="cat-row" class="row">
+                            @if (SignInManager.IsSignedIn(User) && Int32.Parse(UserManager.GetUserId(User)) == cat.ApplicationUserId)
+                            {
+                                <div class="col-md-4">
+                                    <a asp-action="Details" asp-route-id="@cat.CatId">Details</a>
+                                </div>
+
+                                <div class="col-md-4 edit-btn">
+                                    <a asp-action="Edit" asp-route-id="@cat.CatId">Edit</a>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <a asp-action="Delete" asp-route-id="@cat.CatId">Delete </a>
+                                </div>
+
+                            }
+                            else
+                            {
+                                <div class="col-md-4">
+                                    <a asp-action="Details" asp-route-id="@cat.CatId">Details</a>
+                                </div>
+
+                            }
+                        </div>
+
+                    </div>
+                </div>
+
+            }
+        </div>
+
+    </div>
+</div>
+
+@section Scripts {
+
+
+}
